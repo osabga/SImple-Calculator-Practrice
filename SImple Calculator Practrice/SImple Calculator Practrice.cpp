@@ -33,6 +33,7 @@ int main()
 		if ((y == 0) && (operador == '/'))
 		{
 			cout << "No se puede dividir entre 0" << endl;
+            cout << "Intentelo nuevamente" << endl;
 			continue;
 		}
 		result = c.Calculate(x, operador, y);
